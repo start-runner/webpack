@@ -18,12 +18,12 @@ npm i -S start-webpack
 
 ```js
 import start from 'start';
-import logger from 'start-simple-logger';
+import reporter from 'start-pretty-reporter';
 import files from 'start-files';
 import clean from 'start-clean';
 import * as webpack from 'start-webpack';
 
-const start = Start(logger());
+const start = Start(reporter());
 
 export function webpackBuild() {
     return start(
