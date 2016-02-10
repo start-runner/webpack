@@ -1,6 +1,6 @@
 {
   "name": "start-webpack",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Webpack task for Start",
   "keywords": [ "start", "start-task", "webpack" ],
   "homepage": "https://github.com/start-runner/webpack",
