@@ -8,9 +8,6 @@
   "author": "Kir Belevich <kir@soulshine.in> (https://github.com/deepsweet)",
   "files": [ "build/" ],
   "main": "build/index.js",
-  "peerDependencies": {
-    "start": "3.x.x"
-  },
   "dependencies": {
     "webpack": "1.x.x",
     "webpack-dev-server": "1.x.x",
