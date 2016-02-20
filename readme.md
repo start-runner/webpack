@@ -1,7 +1,8 @@
 # start-webpack
 
 [![npm](https://img.shields.io/npm/v/start-webpack.svg?style=flat-square)](https://www.npmjs.com/package/start-webpack)
-[![travis](http://img.shields.io/travis/start-runner/webpack.svg?style=flat-square)](https://travis-ci.org/start-runner/webpack)
+[![linux build](https://img.shields.io/travis/start-runner/webpack.svg?label=linux&style=flat-square)](https://travis-ci.org/start-runner/webpack)
+[![windows build](https://img.shields.io/appveyor/ci/start-runner/webpack.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/webpack)
 [![coverage](https://img.shields.io/codecov/c/github/start-runner/webpack.svg?style=flat-square)](https://codecov.io/github/start-runner/webpack)
 [![deps](https://img.shields.io/gemnasium/start-runner/webpack.svg?style=flat-square)](https://gemnasium.com/start-runner/webpack)
 [![gitter](https://img.shields.io/badge/gitter-join_chat_%E2%86%92-00d06f.svg?style=flat-square)](https://gitter.im/start-runner/start)
