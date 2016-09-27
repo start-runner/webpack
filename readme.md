@@ -1,9 +1,9 @@
 # start-webpack
 
 [![npm](https://img.shields.io/npm/v/start-webpack.svg?style=flat-square)](https://www.npmjs.com/package/start-webpack)
-[![linux build](https://img.shields.io/travis/start-runner/webpack.svg?label=linux&style=flat-square)](https://travis-ci.org/start-runner/webpack)
-[![windows build](https://img.shields.io/appveyor/ci/start-runner/webpack.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/webpack)
-[![coverage](https://img.shields.io/codecov/c/github/start-runner/webpack.svg?style=flat-square)](https://codecov.io/github/start-runner/webpack)
+[![linux build](https://img.shields.io/travis/start-runner/webpack/master.svg?label=linux&style=flat-square)](https://travis-ci.org/start-runner/webpack)
+[![windows build](https://img.shields.io/appveyor/ci/start-runner/webpack/master.svg?label=windows&style=flat-square)](https://ci.appveyor.com/project/start-runner/webpack)
+[![coverage](https://img.shields.io/codecov/c/github/start-runner/webpack/master.svg?style=flat-square)](https://codecov.io/github/start-runner/webpack)
 [![deps](https://img.shields.io/gemnasium/start-runner/webpack.svg?style=flat-square)](https://gemnasium.com/start-runner/webpack)
 
 [Webpack](https://webpack.github.io/) task for [Start](https://github.com/start-runner/start).
