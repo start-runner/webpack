@@ -9,7 +9,7 @@
   "files": [ "build/" ],
   "main": "build/index.js",
   "dependencies": {
-    "webpack": "^1.13.2",
+    "webpack": "^1.13.3",
     "webpack-dev-server": "^1.14.1",
     "babel-runtime": "^6.11.6"
   },
