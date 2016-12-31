@@ -1,6 +1,10 @@
 {
   "extends": [
-    "rebem/configs/common",
-    "rebem/configs/babel"
-  ]
+    "tough/config/common",
+    "tough/config/node",
+    "tough/config/esnext"
+  ],
+  "rules": {
+    "object-curly-newline": 0
+  }
 }
