@@ -1,44 +1,22 @@
 import test from 'tape';
 
-import * as task from '../../lib/';
+import webpack from '../../lib/';
 
-test('build: basic', (t) => {
+test('basic', (t) => {
   t.equal(
-    typeof task.build,
+    typeof webpack,
     'function',
     '1st function'
   );
 
   t.equal(
-    typeof task.build(),
+    typeof webpack(),
     'function',
     '2nd function'
   );
 
   t.equal(
-    typeof task.build()(),
-    'function',
-    '3rd function'
-  );
-
-  t.end();
-});
-
-test('dev: basic', (t) => {
-  t.equal(
-    typeof task.dev,
-    'function',
-    '1st function'
-  );
-
-  t.equal(
-    typeof task.dev(),
-    'function',
-    '2nd function'
-  );
-
-  t.equal(
-    typeof task.dev()(),
+    typeof webpack()(),
     'function',
     '3rd function'
   );
