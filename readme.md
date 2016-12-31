@@ -27,7 +27,7 @@ import webpack from 'start-webpack';
 
 const start = Start(reporter());
 
-export const webpack = () => start(
+export const build = () => start(
   files('build/'),
   clean(),
   webpack(require('conf/webpack.build'))
