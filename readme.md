@@ -6,80 +6,39 @@
 [![coverage](https://img.shields.io/codecov/c/github/start-runner/webpack/master.svg?style=flat-square)](https://codecov.io/github/start-runner/webpack)
 [![deps](https://img.shields.io/gemnasium/start-runner/webpack.svg?style=flat-square)](https://gemnasium.com/start-runner/webpack)
 
-[Webpack](https://webpack.github.io/) task for [Start](https://github.com/start-runner/start).
+[Webpack 2](https://webpack.js.org/) task for [Start](https://github.com/start-runner/start).
 
 ## Install
 
-```
-npm i -S start-webpack
+```sh
+npm install --save-dev start-webpack
+# or
+yarn add --dev start-webpack
 ```
 
 ## Usage
 
 ```js
-import start from 'start';
+import Start from 'start';
 import reporter from 'start-pretty-reporter';
 import files from 'start-files';
 import clean from 'start-clean';
-import * as webpack from 'start-webpack';
+import webpack from 'start-webpack';
 
 const start = Start(reporter());
 
-export function webpackBuild() {
-    return start(
-        files('build/'),
-        clean(),
-        webpack.build(require('conf/webpack.build'))
-    );
-}
-
-export function webpackDev() {
-    return start(
-        webpack.dev(require('conf/webpack.dev'))
-    );
-}
+export const webpack = () => start(
+  files('build/'),
+  clean(),
+  webpack(require('conf/webpack.build'))
+);
 ```
 
 See [documentation](https://github.com/start-runner/start#readme) for details.
 
 ## Arguments
 
-### build
+`webpack(config, statsOptions)`
 
-`webpack.build(config, statsOptions)`
-
-* `config` – [webpack config](https://webpack.github.io/docs/configuration.html)
-* `statsOptions` – [webpack stats options](https://webpack.github.io/docs/node.js-api.html#stats), default:
-
-```js
-{
-    colors: true,
-    children: false,
-    assets: false,
-    version: false,
-    hash: false,
-    chunkModules: false
-}
-```
-
-### dev
-
-`webpack.dev(config, port, options)`
-
-* `config` – [webpack config](https://webpack.github.io/docs/configuration.html)
-* `port` – webpack-dev-server port, `3000` by default
-* `options` – [webpack-dev-server options](https://webpack.github.io/docs/webpack-dev-server.html#api) + [webpack-dev-middleware options](https://webpack.github.io/docs/webpack-dev-middleware.html), default:
-
-```js
-{
-    hot: true,
-    stats: {
-        colors: true,
-        children: false,
-        assets: false,
-        version: false,
-        hash: false,
-        chunkModules: false
-    }
-}
-```
+* `config` – [webpack config](https://webpack.js.org/configuration/)
+* `statsOptions` – [webpack stats options](https://webpack.js.org/configuration/stats/), `{ colors: true }` by default
