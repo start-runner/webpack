@@ -15,8 +15,7 @@
   ],
   "main": "build/index.js",
   "dependencies": {
-    "webpack": "^1.13.2",
-    "webpack-dev-server": "^1.14.1"
+    "webpack": "^1.13.2"
   },
   "devDependencies": {
     "babel-eslint": "^6.1.2",
