@@ -15,7 +15,7 @@
   ],
   "main": "build/index.js",
   "dependencies": {
-    "webpack": "^1.13.2"
+    "webpack": ">=2.2.0-rc.3 <3.0.0"
   },
   "devDependencies": {
     "babel-preset-start": "^0.1.0",
