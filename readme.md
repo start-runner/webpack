@@ -6,7 +6,7 @@
 [![coverage](https://img.shields.io/codecov/c/github/start-runner/webpack/master.svg?style=flat-square)](https://codecov.io/github/start-runner/webpack)
 [![deps](https://img.shields.io/gemnasium/start-runner/webpack.svg?style=flat-square)](https://gemnasium.com/start-runner/webpack)
 
-[Webpack 2](https://webpack.js.org/) task for [Start](https://github.com/start-runner/start).
+[Webpack 2](https://webpack.js.org/) task for [Start](https://github.com/start-runner/start). You might also need [start-webpack-dev-server](https://github.com/start-runner/webpack-dev-server).
 
 ## Install
 
